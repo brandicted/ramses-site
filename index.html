@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Ramses API framework</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/stars.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='stars4'></div>
+<div id='stars5'></div>
+<div id='stars6'></div>
+
+<div class="section get-help">
+    <div class="container">
+      <div class="row">
+        <div class="twelve column ramses-avatar-container">
+          <img src="images/ramses-avatar2.jpg" class="ramses-avatar"/>
+          <h1 class="hero-heading">Ramses</h1>
+          <h4>APIs for immortals</h4>
+          <iframe class="github" src="https://ghbtns.com/github-btn.html?user=brandicted&repo=ramses&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+        </div></div>
+        <div class="row">
+        <div class="ten columns offset-by-one hero-heading-container">
+          <h5>Step 1, describe an API:</h5>
+          <pre><code class="hero-code">
+/monuments:
+  get:
+  post:
+    body:
+      application/json:
+        schema: |
+          { "$schema": "http://json-schema.org/schema",
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "location":  { "type": "string" },
+              "dynasty": { "type": "integer" }
+            }
+          }
+          </code></pre>
+        </div></div>
+        <div class="row">
+        <div class="ten columns offset-by-one hero-heading-container">
+          <h5>Step 2, use it:</h5>
+          <pre><code class="hero-code">
+$ curl http://localhost/api/monuments
+{[{
+  "name": "Abu Simbel"
+  "location": "Nubia",
+  "dynasty": 19
+}]}
+          </code></pre>
+        </div></div>
+        <div class="row">
+          <div class="four columns offset-by-four">
+            <a class="button button-primary" href="https://ramses.readthedocs.org/en/stable/getting_started.html">Get started</a>
+          </div>
+        </div>
+    </div>
+</div>
+
+  <div class="section advantages">
+    <div class="container">
+      <div class="row">
+        <div class="one-third column value">
+          <img src="images/icon-rapid.gif" width="180" />
+          <h3 class="value-name">Rapid API creation</h2>
+          <h5 class="value-heading">One text file to rule them all</h5>
+          <p class="value-description">Using <a href="http://raml.org/">RAML</a>, Ramses generates production-ready APIs. No code required. Generate frontend code, documentation and tests.</p>
+        </div>
+        <div class="one-third column value">
+          <img src="images/logo-elastic.png" width="180" />
+          <h3 class="value-name">Elasticsearch-powered</h2>
+          <h5 class="value-heading">Advanced querying</h5>
+          <p class="value-description"><a href="https://www.elastic.co/products/elasticsearch">Elasticsearch</a> query DSL for your endpoints. Aggregations, full-text search, ranges, sorting, limits, pagination and more.</p>
+        </div>
+        <div class="one-third column value">
+          <img src="images/icon-security.jpg" width="180" />
+          <h3 class="value-name">Fine-grained security</h2>
+          <h5 class="value-heading">Single Source of Truth &amp; full access control</h5>
+          <p class="value-description">Syncs with Postgres or Mongo to ensure data safety. Mutiple authentication schemes. Collection and object-level authorization.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section get-help">
+    <div class="container">
+      <h2 class="section-heading"><strong>Need help getting started?</strong></h3>
+      <h4 class="section-description">If you'd like a bit of guidance you can <a href="https://gitter.im/brandicted/ramses">chat with us on Gitter</a>, or <em>send an email to get private support</em>.</h4>
+      <a class="button button-primary" href="mailto:chris+ramses@brandicted.com">get in touch</a>
+    </div>
+  </div>
+
+  <div class="section advantages">
+    <div class="container">
+      <h2 class="section-heading">Self-hosted</h2>
+      <p class="section-description">Don't outsource the bread and butter of your product to third-party backends that aren't under your control.</p>
+      <div class="row">
+        <div class="one-half column advantge">
+          <img src="images/icon-opensource.jpg" width="200"/>
+          <h3>Open source</h3>
+          <p>It's Python all the way down. Dive into the internals if you want. The code is documented, unit tested, and commented. Licensed under Apache 2.0.</p>
+        </div>
+        <div class="one-half column advantge">
+          <img src="images/icon-extensible.png" height="135" style="border-radius:0;" />
+          <h3>Extensible</h3>
+          <p>Add custom validators on fields, or business logic with CRUD hooks. Easily add databases or interact with other microservices.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section get-help team">
+    <div class="container">
+      <h2 class="section-heading">Core Dev Team</h2>
+      <p class="section-description">We are currently seven and always looking for more contributors.</p>
+      <div class="row">
+        <div class="four columns team">
+          <img src="images/team-jonathan.jpg" width="200" />
+          <h5>Jonathan Stoikovitch</h5>
+          <p>Montreal, Canada</p>
+        </div>
+        <div class="four columns team">
+          <img src="images/team-chris.jpg" width="200" />
+          <h5>Chris Hart</h5>
+          <p>Montreal, Canada</p>
+        </div>
+        <div class="four columns team">
+          <img src="images/team-amos.jpg" width="200" />
+          <h5>Amos Latteier</h5>
+          <p>Vancouver, Canada</p>
+        </div>
+        <div class="four columns team">
+          <img src="images/team-mat.jpg" width="200" />
+          <h5>Mat Allen</h5>
+          <p>Vancouver, Canada</p>
+        </div>
+        <div class="four columns team">
+          <img src="images/team-artem.jpg" width="200" />
+          <h5>Artem Kostiuk</h5>
+          <p>Bila Tserkva, Ukraine</p>
+        </div>
+        <div class="four columns team">
+          <img src="images/team-jasa.png" width="200" />
+          <h5>Jaša Niklanovič</h5>
+          <p>Ljubljana, Slovenia</p>
+        </div>
+        <div class="four columns team">
+          <img src="images/team-jan.png" width="200" />
+          <h5>Jan Mesarič</h5>
+          <p>Ljubljana, Slovenia</p>
+        </div>
+        <div class="four columns team">
+          <a href="https://gitter.im/brandicted/ramses"><img src="images/team-new.jpg" width="200" /></a>
+          <h5>Next member?</h5>
+          <p>Anywhere, Earth</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="section services">
+  <div class="container"><div class="row">
+      <h2 class="section-heading">Services</h2>
+      <p class="section-description">We love building new products. Let us take care of APIs so you can focus entirely on the UX for your customers.</p>
+      <ul class="nine columns offset-by-three services-list">
+        <li>New APIs</li>
+        <li>Integration of third party APIs</li>
+        <li>Client libraries for any device</li>
+        <li>Analytics dashboards</li>
+        <li>Support and training for developers and managers</li>
+      </ul>
+  </div>
+      <div class="row">
+          <div class="four columns offset-by-four">
+            <a class="button button-primary" href="mailto:chris+ramses@brandicted.com">get in touch</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="row footer">
+  <p>&nbsp; &copy; Sosign Interactive</p>
+</div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

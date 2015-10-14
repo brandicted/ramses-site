@@ -1,0 +1,162 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 2px;
+}
+.button.button-primary {
+    background: #67cc77;
+    border-color: #45b858;
+    font-size: 15px;
+    z-index: 1;
+}
+
+.button.button-primary:hover {
+    background: #59b064;
+    border-color: #45b858;
+}
+
+.github {
+  vertical-align: middle;
+  padding-bottom: 3px;
+}
+
+.button-primary.get-started {
+  font-size: 12px;
+  text-align: center;
+  margin-left: 24rem;
+}
+
+code {
+    background: transparent;
+    border: none;
+    color: #ffff11;
+    font-size: 120%;
+}
+
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 10rem 0 10rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.8rem;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.hero {
+  text-align: left;
+  padding-bottom: 14rem;
+}
+.ramses-avatar {
+  border-radius: 100%;
+  max-width: 33%;
+  padding-bottom: 20px;
+}
+
+.ramses-avatar-container {
+  text-align: center;
+  padding-bottom: 50px;
+  z-index:5;
+}
+
+.github {
+  margin-left: 4rem;
+}
+
+.hero-heading-container {
+  text-align: left;
+}
+
+.hero-heading-container h5 {
+  margin-top: 10rem;
+}
+
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+  background-image: url('../images/values-bg.jpg');
+  background-size: cover;
+  padding-bottom: 6rem;
+  color: #eee;
+}
+.value-name {
+  margin-bottom: .8rem;
+  font-weight: bold;
+}
+
+
+/* Help
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.get-help {
+  background: #000;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  color: white;
+}
+
+.get-help h2 {
+  color: #fff;
+}
+
+.get-help h4 {
+  color: #fff;
+}
+
+/* Advantages
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.advantages .section-description { 
+  margin-bottom: 4rem;
+}
+
+.advantages {
+  z-index: 1;
+}
+
+.advantage .column {
+  z-index: 1;
+}
+
+.advantages img {
+  border-radius: 100%;
+}
+
+
+
+/* Team
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.team .columns {
+  margin-left: 0;
+  margin-top: 2rem;
+}
+
+.team .row {
+  padding-left: 4rem;
+}
+
+.team .section-description {
+  margin-bottom: 6rem;
+}
+
+.team img {
+  border-radius: 100%;
+}
+
+
+/* Services
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.services-list {
+  text-align: left;
+  overflow: hidden;
+}
+
+.services p, ul {
+  font-size: larger;
+}

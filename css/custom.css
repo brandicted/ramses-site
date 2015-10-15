@@ -54,11 +54,8 @@ code {
 }
 .ramses-avatar {
   border-radius: 100%;
-  max-width: 45%;
+  max-width: 38%;
   margin-bottom: 1rem;
-  -moz-box-shadow:    inset 0 0 10px #000000;
-  -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow:         inset 0 0 10px #000000;
 }
 
 .ramses-avatar-container {

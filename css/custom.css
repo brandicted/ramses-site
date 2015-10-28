@@ -4,15 +4,17 @@
   border-radius: 2px;
 }
 .button.button-primary {
-    background: #67cc77;
-    border-color: #45b858;
-    font-size: 15px;
+    background: #36bc98;
+    border: 0;
+    font-size: 13px;
     z-index: 1;
+    -webkit-transition:all .3s ease;
+    transition:all .3s ease;
 }
 
+.button.button-primary:focus,
 .button.button-primary:hover {
-    background: #59b064;
-    border-color: #45b858;
+    background: #3ea07f;
 }
 
 .github {

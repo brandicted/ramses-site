@@ -1,47 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Ramses API framework</title>
   <meta name="description" content="">
   <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
-
-
-  <!-- Scripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
-
 </head>
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-<div id='stars2'></div>
-<div id='stars3'></div>
-<div id='stars5'></div>
-<div id='stars6'></div>
+<div id="stars2"></div>
+<div id="stars3"></div>
+<div id="stars5"></div>
+<div id="stars6"></div>
 
 <div class="section get-help">
     <div class="container">
@@ -195,7 +172,8 @@ $ curl http://localhost/api/monuments
 
 
 <div class="section services">
-  <div class="container"><div class="row">
+  <div class="container">
+    <div class="row">
       <h2 class="section-heading">Services</h2>
       <p class="section-description">We love building new products. Let us take care of APIs so you can focus entirely on the UX for your customers.</p>
       <ul class="nine columns offset-by-three services-list">
@@ -205,21 +183,28 @@ $ curl http://localhost/api/monuments
         <li>Analytics dashboards</li>
         <li>Support and training for developers and managers</li>
       </ul>
-  </div>
-      <div class="row">
-          <div class="four columns offset-by-four">
-            <a class="button button-primary" href="mailto:hello@ramses.tech">get in touch</a>
-          </div>
+    </div>
+    <div class="row">
+      <div class="four columns offset-by-four">
+        <a class="button button-primary" href="mailto:hello@ramses.tech">get in touch</a>
       </div>
+    </div>
   </div>
 </div>
 
 
-<div class="row footer">
-  <p>&nbsp; &copy; Sosign Interactive Inc.</p>
+<div class="section footer">
+  <div class="container">
+    <p>&nbsp; &copy; Sosign Interactive Inc.</p>
+  </div>
 </div>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+  room: 'brandicted/ramses'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
 </body>
 </html>

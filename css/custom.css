@@ -114,6 +114,7 @@ code {
 .get-help h4 {
   color: #fff;
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 /* Advantages
@@ -133,6 +134,7 @@ code {
 
 .advantages img {
   border-radius: 100%;
+  margin-bottom: 2rem;
 }
 
 
@@ -141,12 +143,12 @@ code {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .team .columns {
-  margin-left: 0;
+  margin-left: 2rem;
   margin-top: 2rem;
 }
 
-.team .row {
-  padding-left: 4rem;
+.team h5 {
+    font-size: 2rem;
 }
 
 .team .section-description {

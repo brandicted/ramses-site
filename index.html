@@ -30,27 +30,17 @@
           <iframe class="github" src="https://ghbtns.com/github-btn.html?user=ramses-tech&repo=ramses&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
         </div>
       </div>
-      <div class="row section" style="margin-left:0;">
-          <pre><code class="hero-code" style="text-align:left;">
-                $ pip install ramses
-                $ pcreate -s ramses_starter myproj && cd myproj
-                $ pserve local.ini
-                serving on http://0.0.0.0:6543
-          </code></pre>
-      </div>
       <div class="row">
         <div class="ten columns offset-by-one hero-heading-container">
-          <h4 style="text-align:left;margin-top:-2rem;">
+          <h5 style="text-align:left;margin-top:;color:white;margin-bottom:10rem;">
             ✔&nbsp; Automatically generate APIs from <a href="http://raml.org/developers">RAML files</a><br />
             ✔&nbsp; With <a href="https://rawgit.com/raml2html/raml2html/master/examples/example.html">API docs</a><br />
             ✔&nbsp; And <a href="https://github.com/mulesoft/raml-client-generator">JavaScript clients</a><br />
             ✔&nbsp; <a href="https://nefertari.readthedocs.org/en/stable/making_requests.html">Powerful queries</a> in the URL with <a href="https://www.elastic.co/blog/make-an-elasticsearch-powered-rest-api-for-any-data-with-ramses">Elasticsearch</a><br />
-            ✔&nbsp; Advanced auth and <a href="https://nefertari-guards.readthedocs.org/en/stable/acl_filtering.html">fine-grained ACLs</a><br />
-            ✔&nbsp; Active community on <a href="https://github.com/ramses-tech">Github</a> and <a href="https://gitter.im/ramses-tech/ramses">Gitter</a><br />
-            ✔&nbsp; Commercial support from the core team (<a href="mailto:hello@ramses.tech">ask!</a>)
-        </h4>
+            ✔&nbsp; Advanced auth and <a href="https://nefertari-guards.readthedocs.org/en/stable/acl_filtering.html">fine-grained ACLs</a>
+        </h5>
 
-          <h5>Step 1, describe an API:</h5>
+          <h6>Step 1, describe an API:</h5>
           <pre><code class="hero-code">
 /monuments:
   get:
@@ -71,7 +61,7 @@
       </div>
       <div class="row">
         <div class="ten columns offset-by-one hero-heading-container">
-          <h5>Step 2, use it:</h5>
+          <h6>Step 2, use it:</h6>
           <pre><code class="hero-code">
 $ curl http://localhost/api/monuments
 {
